@@ -7,7 +7,7 @@ def solution(arr, divisor):
 
     if len(answer)==0:
         return [-1]    
-    arr.sort()    
+    answer.sort()    
     return answer
 
 

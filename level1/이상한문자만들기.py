@@ -10,17 +10,9 @@ def solution(s):
             if(j%2==0):
                 answer += i[j].upper()
             else:
-                answer += i[j].lower()
+                answer += i[j].lower()            
         answer+=(' ')
    
-        # p=len(i)
-        # for q in range (p):
-        #     if i[q%2==0]:
-        #         print(i[q%2==0])
-            
-        #     if(q%2==0):
-        #         print(str())
-
     return answer
 
 

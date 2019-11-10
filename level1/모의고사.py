@@ -1,4 +1,5 @@
 from itertools import cycle
+
 def solution(answers):
     # print(answers)
     winner=[]

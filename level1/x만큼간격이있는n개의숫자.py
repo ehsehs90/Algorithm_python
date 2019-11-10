@@ -1,6 +1,6 @@
 def solution(x, n):
     answer = []
-    t=x*n+1
+
     for i in range(n):
         answer.append(x+i*x)
     return answer
