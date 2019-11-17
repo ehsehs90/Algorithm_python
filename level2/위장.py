@@ -11,9 +11,9 @@ def solution(clothes):
 # for 문을 통해 딕셔너리를 for문을 돌리면 key값이 할당된다.
 # 순서는 임의적이다. 같은 순서를 보장할 수 없다.
     for k in dic:
-        answer *= len(dic[k])+1
-#의상종류 중 반드시 하나는 선택해야하므로, 아무것도 선택하지 않을 확률을 빼야한다.
+        answer *= len(dic[k])+1 # 2개면 경우의 수 0,1,2
 
+#의상종류 중 반드시 하나는 선택해야하므로, 아무것도 선택하지 않을 확률을 빼야한다.
     return answer-1
 
 # 서로 다른 조합의 수 return 하는 solution 함수
