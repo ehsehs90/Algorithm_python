@@ -12,11 +12,11 @@ def solution(scoville, K):
 
         if heap[0] >= K:
             return count
-        a = heapq.heappop(heap)
+        a = heapq.heappop(heap)   #빼
         if heap != []:
             # print('여길와야지')
-            b = heapq.heappop(heap)
-            heapq.heappush(heap, a +(b*2))
+            b = heapq.heappop(heap) #빼
+            heapq.heappush(heap, a +(b*2))  #넣어
         count += 1
         # print(count)
 
