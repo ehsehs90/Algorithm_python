@@ -1,6 +1,5 @@
 def solution(heights):
     answer = [0] * len(heights)
-
     p=len(heights)
     # print(len(heights))
     while( p > 0 ):
