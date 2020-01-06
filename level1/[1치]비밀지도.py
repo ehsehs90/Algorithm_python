@@ -4,7 +4,7 @@ def solution(n, arr1, arr2):
     for i,j in zip(arr1, arr2):
         # print(format((i|j),'b').rjust(n,'0'))
         a=format((i|j),'b')
-        # print(a)
+        #print(a)
         s=a.replace('1','#')
         s=s.replace('0',' ')
         print(s)         
